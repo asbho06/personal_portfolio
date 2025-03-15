@@ -8,11 +8,13 @@ website:
       - href: index.qmd
         text: Home
       - href: about.qmd
+      - href: courses.qmd
+      
 
 format:
   html:
     theme:
-      - cosmo
+      - yeti
       - brand
     css: styles.css
     toc: true

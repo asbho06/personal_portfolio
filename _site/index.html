@@ -72,7 +72,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-2f5df379a58b258e96c21c0638c20c03.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-ddd961a2510921635943dfbbd19534c4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-fd053a38988e21bb3d3b0b617a2084cf.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -130,6 +130,10 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="./courses.qmd"> 
+<span class="menu-text"></span></a>
+  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
@@ -172,6 +176,31 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">2</span> <span class="sc">*</span> <span class="dv">2</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>[1] 4</code></pre>
+</div>
+</div>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">runif</span>(<span class="dv">100</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stdout">
+<pre><code>  [1] 0.8889486035 0.4138058706 0.5374901106 0.9163495624 0.8254385951
+  [6] 0.2494224089 0.0415390227 0.0627249891 0.3697580092 0.1796001596
+ [11] 0.1530257170 0.2555681784 0.3434514508 0.2082355977 0.3152490163
+ [16] 0.0273122317 0.7869911639 0.2035283223 0.0978066819 0.4135325272
+ [21] 0.2319698236 0.3280962191 0.2204409582 0.0006372074 0.2819476260
+ [26] 0.3273061416 0.2120266438 0.7442420728 0.0551213245 0.1821192903
+ [31] 0.3143541461 0.7108067141 0.1010464719 0.4387705473 0.9411768892
+ [36] 0.3547342729 0.4910592295 0.8927194062 0.3093392951 0.5641060988
+ [41] 0.0072976239 0.7201029188 0.5746174855 0.4146485552 0.6647252673
+ [46] 0.8838745232 0.3587544004 0.2514798171 0.7594357030 0.9458547947
+ [51] 0.3037480968 0.0746851065 0.9356995723 0.6484182319 0.9870448301
+ [56] 0.0499245408 0.5673866509 0.3560894805 0.9599116778 0.0966694346
+ [61] 0.1853263055 0.1010874587 0.5148862225 0.1238836655 0.4342531252
+ [66] 0.3557837305 0.0938171698 0.9365941279 0.4653671058 0.0292757421
+ [71] 0.7076904827 0.8611688258 0.5269205549 0.7909276583 0.1710311861
+ [76] 0.7242287416 0.9198357065 0.2644377791 0.2676347536 0.2543399585
+ [81] 0.7907880696 0.1148861281 0.4034946021 0.2947847149 0.9154577556
+ [86] 0.0164426381 0.2826525511 0.4999781197 0.4390867429 0.0788906356
+ [91] 0.9470845188 0.8261436629 0.8576404871 0.4140724381 0.4201216428
+ [96] 0.7038768569 0.4514059962 0.6145113113 0.1267879661 0.2726444611</code></pre>
 </div>
 </div>
 
@@ -268,7 +297,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/resilient-maamoul-720f69\.netlify\.app");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
