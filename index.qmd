@@ -9,14 +9,15 @@ about:
       href: https://github.com/asbho06
     - icon: linkedin
       text: LinkedIn
-      url: "www.linkedin.com/in/abdulsamad-bholat"
+      url: "https://www.linkedin.com/in/abdulsamad-bholat"
     - text: Email
       url: "mailto:abholat7863@gmail.com"
       icon: inbox-fill
     - text: Resume
-      url: "resume_2_real(2)"
+      url: "https://raw.githubusercontent.com/asbho06/personal_portfolio/main/resume_2_real.pdf"
 ---
 
 This is a Quarto website.
+
 Hello, you found me, Welcome to my portfolio! Stay Tuned!
 
