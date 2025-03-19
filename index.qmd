@@ -18,13 +18,5 @@ about:
 ---
 
 This is a Quarto website.
+Hello, you found me, Welcome to my portfolio! Stay Tuned!
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-2 * 2
-```
-
-```{r}
-runif(100)
-```
